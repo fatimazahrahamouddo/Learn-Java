@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class main {
 	public static void main(String[] args) {
 	Scanner Input = new Scanner(System.in);	 
-	String num1,num2,operator;String test = new String("hello"); 
+	String num1,num2,operator; 
 	int num1Int,num2Int,num3;
 		try {
 			System.out.print("Enter the first number : ");
@@ -36,7 +36,6 @@ public class main {
 		}catch(Exception e) {
 			System.out.print("The error is : "+e);
 		}
-		System.out.print(test);
 	}
 }
 
